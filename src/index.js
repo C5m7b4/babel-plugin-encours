@@ -1,4 +1,4 @@
-export default function (babel) {
+module.exports = function (babel) {
   var t = babel.types;
   return {
     name: "custom-jsx-plugin",
@@ -80,4 +80,4 @@ export default function (babel) {
       return node;
     }
   }
-}
+};

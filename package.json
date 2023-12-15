@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-encours",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small plugin to transpile jsx for the encours framework",
   "main": "src/index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   },
   "author": "C5m7b4",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C5m7b4/babel-plugin-encours"
+  },
   "keywords": [
     "babel",
     "jsx",
