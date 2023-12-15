@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-encours",
+  "version": "0.0.1",
+  "description": "A small plugin to transpile jsx for the encours framework",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx babel src/index.js --out-file dist/index.js",
+    "push": "babel-plugin push"
+  },
+  "author": "C5m7b4",
+  "license": "ISC",
+  "keywords": [
+    "babel",
+    "jsx",
+    "babel-plugin"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "src"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
